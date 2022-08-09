@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["assets.coingecko.com"],
+    domains: ["assets.coingecko.com"], //Domain of image host
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
