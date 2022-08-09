@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #1a1a1a;
 }
 
 a {
@@ -12,7 +13,17 @@ a {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+.card {
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid #646464;
+  border-radius: 6px;
+  background-color: #404040;
 }
 
 @media (prefers-color-scheme: dark) {
